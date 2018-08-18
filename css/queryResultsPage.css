@@ -3,53 +3,18 @@ body {
     font-family: Arial;
     min-width: 1024px;
 }
-div.categoryPageDiv {
+
+div.queryResultsPage {
     margin-bottom: 40px;
 }
-div.categorySortBar {
-    background-color: #FAF9F9;
-    margin: 40px 20px 20px 20px;
-    padding: 4px;
+
+div.searchResultDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+    min-height: 300px;
 }
 
-table.categorySortBarTable {
-    border-collapse: collapse;
-    display: inline-table;
-}
-
-table.categorySortBarTable td {
-    border: 1px solid #CCCCCC;
-    padding: 3px;
-    height: 23px;
-}
-
-table.categorySortBarTable td a {
-    color: #806F66;
-    font-size: 12px;
-}
-
-table.categorySortBarTable input {
-    border-width: 0px;
-    height: 100%;
-    width: 50px;
-    font-size: 12px;
-}
-
-table.categorySortBarTable span.glyphicon {
-    font-size: 10px;
-}
-
-table.categorySortBarTable td.priceMiddleColumn {
-    width: 10px;
-    vertical-align: middle;
-    color: #CCCCCC;
-}
-
-table.categorySortBarTable td.grayColumn {
-    background-color: #F1EDEC;
-}
-
-div.categoryProducts {
+div.searchProducts {
     padding: 0px 20px 40px 20px;
 }
 
@@ -62,11 +27,9 @@ div.productUnit {
     float: left;
     padding: 0px;
 }
-
 div.productUnit:hover {
     border: 3px solid #C40000;
 }
-
 div.productUnitFrame {
     border: 1px solid #eee;
 }
