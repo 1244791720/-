@@ -53,3 +53,12 @@ div.searchBelow {
     margin-top: 3px;
     margin-left: -20px;
 }
+
+div.searchBelow span {
+    color: #999;
+}
+
+div.searchBelow a:hover {
+    color: rgb(196, 0, 0);
+    text-decoration: none;
+}
