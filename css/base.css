@@ -10,3 +10,11 @@ body {
     font-family: Arial;
     min-width: 1024px;
 }
+
+.boldWord {
+    font-weight: bold;
+}
+
+.redColor {
+    color: #C40000;
+}
